@@ -13,6 +13,14 @@ function App() {
 
   return (
     <div className="App">
+      <div className="minify-head">
+      <p className="minify-title">Minify URL</p>
+      </div>
+      <div className="helper-text-wrapper">
+        <p className="helper-text">
+          paste your lengthly url here and get a minified (shortten) url
+        </p>
+      </div>
       <div className="minfy-search">
         <input
           className="short-txt"

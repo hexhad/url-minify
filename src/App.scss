@@ -15,6 +15,22 @@ $mobile: "(max-width: 767px)";
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  .minify-head{
+    .minify-title{
+      font-family: "Poppins", sans-serif;
+    }
+  }
+  .helper-text-wrapper{
+    display: flex;
+  justify-content: center;
+
+    .helper-text{
+      font-size: .5rem;
+      font-family: "Poppins", sans-serif;
+      font-weight: 100;
+      text-align: center;
+    }
+  }
   .minfy-search {
     display: flex;
     flex-direction: row;
@@ -22,7 +38,6 @@ $mobile: "(max-width: 767px)";
       flex-direction: column;
       align-items: center;
     }
-
     .short-txt {
       width: 35vw;
       margin-right: 5px;
